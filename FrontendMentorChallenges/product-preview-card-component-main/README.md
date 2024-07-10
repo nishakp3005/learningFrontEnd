@@ -4,39 +4,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
-
-### The challenge
-
-- View the optimal layout depending on their device's screen size
-- See hover and focus states for interactive elements
-- challenge [link](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub)
-
-### Screenshot
-
-Desktop design -->
-
-![desktop-design](https://github.com/nishakp3005/CSS-cards/assets/121110503/b3c7ad97-9105-4b95-84ac-6678a01b6f4c)
-
-Mobile design -->
-
-![mobile-design](https://github.com/nishakp3005/CSS-cards/assets/121110503/bb7917ca-7a77-4990-b494-53957997e73a)
-
-### Links
-
-- [Solution URL](https://github.com/nishakp3005/CSS-cards/tree/main/product-preview-card-component-main)
-- [Live Site URL](https://nishakp3005.github.io/CSS-cards/product-preview-card-component-main/)
 
 ## My process
 
