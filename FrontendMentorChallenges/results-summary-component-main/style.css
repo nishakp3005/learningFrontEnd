@@ -1,0 +1,193 @@
+:root{
+    --light_red : hsl(0, 100%, 67%);
+    --Orangey_yellow: hsl(39, 100%, 56%);
+    --Green_teal: hsl(166, 100%, 37%);
+    --Cobalt_blue: hsl(234, 85%, 45%);
+
+    /* gradients 
+    Light slate blue (background): hsl(252, 100%, 67%)
+    Light royal blue (background): hsl(241, 81%, 54%)
+    Violet blue (circle): hsla(256, 72%, 46%, 1)
+    Persian blue (circle): hsla(241, 72%, 46%, 0) */
+
+    /* neutral  */
+    --White: hsl(0, 0%, 100%);
+    --Pale_blue: hsl(221, 100%, 96%);
+    --Light_lavender: hsl(241, 100%, 89%);
+    --Dark_gray_blue: hsl(224, 30%, 27%);
+
+    /* Family: Hanken Grotesk
+    Weights: 500, 700, 800 */
+
+}
+
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* font-size: 16px; */
+    /* font-size: 18px; */
+}
+
+.container{
+    height: 100dvh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 575px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1.5rem;
+}
+
+.left{
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    background-color: var(--Cobalt_blue);
+    width: 50%;
+    height: 100%;
+    border-radius: 1.5rem;
+    color: white;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 30px;
+    width: 50%;
+    height: 100%;
+}
+
+.left .circle{
+    height: 9.5rem;
+    width: 9.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.left p{
+    text-align: center;
+}
+
+.box .left .circle h1{
+    font-size: 50px;
+}
+
+.right .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.right .mid{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.first{
+    color: var(--light_red);
+    background-color: hsla(0, 100%, 67%, 0.1);
+    padding: 10px;
+    border-radius: 0.4rem;
+}
+
+.second{
+    color: var(--Orangey_yellow);
+    background-color: hsla(39, 100%, 56%, 0.1);
+    padding: 8px;
+    border-radius: 0.4rem;
+}
+
+.third{
+    color: var(--Green_teal);
+    background-color: hsla(166, 100%, 37%, 0.1);
+    padding: 8px;
+    border-radius: 0.4rem;
+}
+
+.fourth{
+    color: var(--Cobalt_blue);
+    background-color: hsla(234, 85%, 45%, 0.1);
+    padding: 8px;
+    border-radius: 0.4rem;
+}
+
+.right div p img {
+    height: 16px;
+    padding-left: 4px;
+    padding-right: 3px;
+}
+
+button{
+    border: none;
+    font-size: inherit;
+    border-radius: 3.5rem;
+    background-color: var(--Dark_gray_blue);
+    height: 45px;
+    color : var(--White);
+}
+
+button:hover{
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));;
+}
+
+@media (max-width : 400px) {
+    *{
+        font-size: 14px;
+    }
+    .box{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100dvh;
+        width: 100vw;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 1.5rem;
+        border-radius: 0px;
+    }
+    .left{
+        padding: 25px;
+        border-radius: 0rem 0rem 1.5rem 1.5rem;
+        width: 100%;
+        height: 50%;
+        gap: 13px;
+        justify-content: space-around;
+    }
+    .right{
+        width: 100%;
+        height: 50%;
+    }
+    .right .content{
+        padding: 5px;
+    }
+    .left .circle p{
+        font-size: 12px;
+    }
+
+}
